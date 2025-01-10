@@ -1,0 +1,53 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+thumbs.db
+
+# Debug files
+*.pdb
+
+# Environment files
+.env
+.env.local
+*.env
+
+# API keys and sensitive data
+keys.json
+*_keys.json
+api_keys.json
+
+# Log files
+*.log
+logs/
+debug/
+
+# Test files
+test_domains.txt
+test_results/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Profiling and analysis
+flamegraph.svg
+perf.data
+perf.data.old
+
+# Documentation
+/doc/
+/docs/generated/
+
+# Temporary files
+tmp/
+temp/
